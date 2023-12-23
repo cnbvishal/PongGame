@@ -11,10 +11,10 @@ let y=true;
 let leftPlayerLives=3;
 let rightPlayerLives=3;
 
-let ballSpeed = 10;
+let ballSpeed = 8;
 
 
-// user input listen
+// user input listen(keyboard listen)
 
 document.addEventListener("keydown",function(e){
     if(e.key=="w"){
