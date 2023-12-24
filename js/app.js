@@ -8,10 +8,10 @@ let boardBound=board.getBoundingClientRect();
 let x=true;
 let y=true;
 
-let leftPlayerLives=3;
-let rightPlayerLives=3;
+let leftPlayerLives=5;
+let rightPlayerLives=5;
 
-let ballSpeed = 8;
+let ballSpeed = 6;
 
 
 // user input listen(keyboard listen)
@@ -80,7 +80,7 @@ function moveBall(){
         }
     }
 
-    // function restGame
+    // function for restGame
 
     function resetGame(){
         console.log("reset");
@@ -95,7 +95,7 @@ function moveBall(){
     y=!y;
     }
     
-    // *********************colision performed here **************************
+    // colision performed here
 
     let leftPaddleBounds=leftPaddle.getBoundingClientRect();
     let rightPaddleBounds=rightPaddle.getBoundingClientRect();
