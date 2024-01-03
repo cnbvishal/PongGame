@@ -8,8 +8,8 @@ let boardBound=board.getBoundingClientRect();
 let x=true;
 let y=true;
 
-let leftPlayerLives=5;
-let rightPlayerLives=5;
+let leftPlayerLives=3;
+let rightPlayerLives=3;
 
 let ballSpeed = 6;
 
